@@ -38,6 +38,7 @@ var
   i: integer;
   s: string;
 begin
+  showmessage('asd');
   //SHA1
   SHA1.Init;                                   // initialize it
   SHA1.UpdateStr(Edt_Original.Text);       // hash the stream contents
